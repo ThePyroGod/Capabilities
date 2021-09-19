@@ -9,7 +9,8 @@ public class CapabilitySpec {
 	@CapabilityInject(ISpec.class)
     public static Capability<ISpec> ENERGY = null;
 
-    public static void register()
+    @SuppressWarnings("removal")
+	public static void register()
     {
         CapabilityManager.INSTANCE.register(ISpec.class);
     }

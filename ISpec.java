@@ -13,5 +13,4 @@ public interface ISpec
     boolean canExtract();
 
     boolean canReceive();
-
 }
